@@ -1,5 +1,5 @@
 body{
-    margin-top: 0px #1A1817;
+     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
@@ -9,6 +9,8 @@ body{
      background-color: #1A1817;
     color: #F7F5F5;
     padding-bottom: 50px;
+    padding-left: 39px;
+    padding-right: 70px;
 }
 
 
@@ -20,10 +22,12 @@ a{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 17px;
+    
     margin-left: 48px;
     margin-bottom: 0px;
     margin-right: 34px;
+    padding-top: 28px;
+    padding-left: 0px;
 
 }
 
@@ -65,12 +69,16 @@ a{
 
 .column{
     display: flex;
-  
+  text-align: -webkit-center;
 }
 
 .container{
-    background-color: #F7F5F5;
+  
     color: #1A1817;
+    padding-right: 70px;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    padding-left: 47px;
     
 
 }
@@ -79,4 +87,75 @@ a{
 .titre2{
     display: flex;
     justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.marque{
+  display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mark{
+    padding-top: 50px;
+}
+
+.card{
+    width: 1030px;
+    margin: auto;
+  
+    img{
+        width: 100%;
+        
+    }
+   
+}
+
+
+.carte{
+      display: flex;
+    flex-wrap: wrap;
+     width: 310px;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.etoile{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+}
+
+.gris{
+    background-color: #F3F3F3;
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: center;
+}
+.temoignage{
+       background-color: #F3F3F3;
+    width: 310px;
+    padding: 20px;
+}
+.flex{
+    display: flex;
+    gap: 20px;
+ 
+}
+.gap{
+    gap: 5px
+}
+.imgT{
+    width: 50px;
+    height: 50px;
 }
